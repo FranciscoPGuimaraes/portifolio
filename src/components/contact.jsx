@@ -15,7 +15,7 @@ const Contact = () => {
         >
             <h2>Contato</h2>
             <div className="contact-grid">
-                <a href="mailto:seuemail@email.com" target="_blank" rel="noopener noreferrer" className="contact-item">
+                <a href="mailto:franciscop.guimaraes04@gmail.com" target="_blank" rel="noopener noreferrer" className="contact-item">
                     <Mail className="contact-icon" />
                     <span>Email</span>
                 </a>
@@ -23,11 +23,11 @@ const Contact = () => {
                     <Linkedin className="contact-icon" />
                     <span>LinkedIn</span>
                 </a>
-                <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer" className="contact-item">
+                <a href="https://github.com/FranciscoPGuimaraes/" target="_blank" rel="noopener noreferrer" className="contact-item">
                     <Github className="contact-icon" />
                     <span>GitHub</span>
                 </a>
-                <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="contact-item">
+                <a href="https://wa.me/55359288233252" target="_blank" rel="noopener noreferrer" className="contact-item">
                     <Smartphone className="contact-icon" />
                     <span>WhatsApp</span>
                 </a>

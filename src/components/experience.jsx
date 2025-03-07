@@ -4,17 +4,35 @@ import './experience.css';
 
 const experiences = [
     {
-        empresa: "OpenAI",
+        empresa: "Embreaer S.A.",
         data: "Jan 2024 - Fev 2025",
-        tecnologias: ["Python", "SQL", "TensorFlow"],
-        atividades: "Criação de modelos de IA para previsão de demanda e otimização logística."
+        tecnologias: ["Python", "Pandas", "Sklearn", "GIT", "ML", "BigQuery", "SQL", "TensorFlow"],
+        atividades: "ETL, estudo de viabilidade, aplicação de estatística e criação de modelos de Machine Learning para dados da área financeira."
     },
     {
-        empresa: "Empresa X",
-        data: "Mar 2023 - Dez 2023",
-        tecnologias: ["Pandas", "Power BI", "Azure"],
-        atividades: "Automatização de relatórios e dashboards para diretoria."
-    }
+        empresa: "Empresa Inatel",
+        data: "Jan 2022 - Fev 2025",
+        tecnologias: ["SQL", "MongoDB", "Neo4j", "Python", "Java"],
+        atividades: "Ministrar aulas de laboratório de banco de dados relacionais e não relacionais."
+    },
+    {
+        empresa: "Empresa Inatel",
+        data: "Set 2023 - Jan 2024",
+        tecnologias: ["Python", "Pandas", "Sklearn", "GIT", "ML", "SQL", "Yolo"],
+        atividades: "Iniciação científica em visão computacional e machine learning com foco em detecção de ataques suspeitos em cybersegurança."
+    },
+    {
+        empresa: "Empresa Inatel",
+        data: "Jan 2023 - Set 2023",
+        tecnologias: ["SQL", "JavaScript", "PHP", "HTML", "CSS", "ReactJS"],
+        atividades: "Desenvolvimento do site da instituição, manuntenção do site e melhoria de SEO."
+    },
+    {
+        empresa: "Empresa Inatel",
+        data: "Jan 2022 - Jan 2023",
+        tecnologias: ["Python", "Pandas", "Sklearn", "GIT"],
+        atividades: "Iniciação científica para desenvolvimento de IA com foco em processamento de linguagem natural para pessoas com deficiência na fala."
+    },
 ];
 
 const Experience = () => {

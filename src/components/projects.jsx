@@ -4,23 +4,17 @@ import './projects.css';
 
 const projects = [
     {
-        nome: "Sistema de Previsão de Vendas",
-        descricao: "Um sistema de machine learning que analisa histórico de vendas e gera previsões futuras.",
-        tecnologias: ["Python", "Pandas", "Scikit-Learn"],
+        nome: "Connect Farm - App",
+        descricao: "Plataforma para auxiliar na gestão e analise de dados de produtores pecuários.",
+        tecnologias: ["reactjs", "nextjs", "nodejs", "mongodb", "SQL"],
         link: "https://github.com/seu-usuario/sistema-previsao-vendas"
     },
     {
-        nome: "Dashboard de Análises",
-        descricao: "Dashboard interativo para análise exploratória de dados, integrando com Power BI.",
-        tecnologias: ["Power BI", "SQL", "Python"],
-        link: "https://github.com/seu-usuario/dashboard-analises"
+        nome: "Connect Farm - API",
+        descricao: "Plataforma para auxiliar na gestão e analise de dados de produtores pecuários.",
+        tecnologias: ["python", "fastapi", "mongodb", "SQL"],
+        link: "https://github.com/seu-usuario/sistema-previsao-vendas"
     },
-    {
-        nome: "Chatbot com IA",
-        descricao: "Chatbot inteligente que utiliza NLP para responder perguntas sobre produtos.",
-        tecnologias: ["Python", "NLTK", "FastAPI"],
-        link: "https://github.com/seu-usuario/chatbot-ia"
-    }
 ];
 
 const Projects = () => {
