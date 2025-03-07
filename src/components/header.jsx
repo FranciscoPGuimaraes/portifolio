@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import './header.css';
+import 'src/components/header.css';
 
 const Header = () => {
     return (

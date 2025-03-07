@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Linkedin, Github, Smartphone } from 'lucide-react';
-import './contact.css';
+import 'src/components/contact.css';
 
 const Contact = () => {
     return (
