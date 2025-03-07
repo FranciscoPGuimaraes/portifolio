@@ -14,6 +14,7 @@ const About = () => {
         >
             <h2>Sobre Mim</h2>
             <div className="about-content">
+                <img src="assets/xico.jpg" alt="Francisco Pereira Guimarães" className='about-image' />
                 <p>
                     Olá! Meu nome é <span className="destaque">Francisco Pereira Guimarães</span> e sou apaixonado por dados e tecnologia. Estou me formando em Engenharia de Software e hoje trabalho com Ciências de dados na Embraer em projetos de Machine Learning.
                 </p>

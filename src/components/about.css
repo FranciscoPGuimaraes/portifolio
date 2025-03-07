@@ -52,3 +52,12 @@ h2::after {
     font-weight: bold;
     text-shadow: 0 0 8px rgba(167, 255, 235, 0.8);
 }
+
+.about-image{
+    max-width: 250px;
+    max-height: 250px;
+    margin-top: 2rem;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(167, 255, 235, 0.2);
+}
