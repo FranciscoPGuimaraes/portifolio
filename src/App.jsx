@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from 'src/components/header';
-import About from 'src/components/about';
-import Experience from 'src/components/experience';
-import Projects from 'src/components/projects';
-import Contact from 'src/components/contact';
+import Header from './components/header';
+import About from './components/about';
+import Experience from './components/experience';
+import Projects from './components/projects';
+import Contact from './components/contact';
 import './index.css';
 
 function App() {
