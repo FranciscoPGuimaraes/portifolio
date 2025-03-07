@@ -11,6 +11,13 @@
     z-index: 1000;
 }
 
+@media (max-width: 1024px) {
+    .header {
+        display: none;
+    }
+}
+
+
 nav a {
     color: #A7FFEB;
     margin-left: 1rem;

@@ -15,7 +15,7 @@ const About = () => {
             <h2>Sobre Mim</h2>
             <div className="about-content">
                 <p>
-                    Olá! Meu nome é <span className="destaque">[Francisco Pereira Guimarães]</span> e sou apaixonado por dados e tecnologia. Estou me formando em Engenharia de Software e hoje trabalho com Ciências de dados na Embraer em projetos de Machine Learning.
+                    Olá! Meu nome é <span className="destaque">Francisco Pereira Guimarães</span> e sou apaixonado por dados e tecnologia. Estou me formando em Engenharia de Software e hoje trabalho com Ciências de dados na Embraer em projetos de Machine Learning.
                 </p>
                 <p>
                     Já atuei em projetos que envolvem desde a <span className="destaque">limpeza e análise de dados</span>, até a criação de modelos preditivos para otimizar processos e reduzir custos. Adoro explorar novas ferramentas e linguagens, sempre buscando evoluir e me adaptar às demandas do mercado.
