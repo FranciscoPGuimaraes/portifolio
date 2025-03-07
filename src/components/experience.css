@@ -1,0 +1,69 @@
+.experience-section {
+    padding: 4rem 2rem;
+    background-color: #0A0F1F;
+    color: #E0E0E0;
+    min-height: 100vh;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #A7FFEB;
+    text-shadow: 0 0 10px rgba(167, 255, 235, 0.8);
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.experience-card {
+    background-color: rgba(20, 24, 35, 0.8);
+    border: 1px solid rgba(167, 255, 235, 0.5);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.3s;
+    box-shadow: 0 0 15px rgba(167, 255, 235, 0.2);
+}
+
+.experience-card:hover {
+    box-shadow: 0 0 25px rgba(167, 255, 235, 0.8);
+}
+
+.experience-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #A7FFEB;
+}
+
+.exp-data {
+    font-style: italic;
+    color: #A0A0A0;
+    margin: 0.5rem 0;
+}
+
+.exp-tecnologias {
+    margin: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-badge {
+    background-color: rgba(167, 255, 235, 0.1);
+    border: 1px solid #A7FFEB;
+    padding: 0.3rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: #A7FFEB;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.exp-atividades {
+    margin-top: 0.5rem;
+    line-height: 1.4;
+}
