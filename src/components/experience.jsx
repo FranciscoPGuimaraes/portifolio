@@ -4,8 +4,20 @@ import './experience.css';
 
 const experiences = [
     {
+        empresa: "Levty",
+        data: "Abril 2024 - O momento",
+        tecnologias: ["JavaScript", "Node.js", "Analytics", "ElasticSearch", "ReactJS", "GIT"],
+        atividades: "Atuando como engenheiro de software, desenvolvendo soluções de BPM, integração de sistemas e análise de dados. Foco em otimização de processos e criação de dashboards para visualização de métricas."
+    },
+    {
+        empresa: "IFoot",
+        data: "Abril 2024 - O momento",
+        tecnologias: ["JavaScript", "Node.js", "ReactNative", "ReactJS", "Micro-services", "Supabase", "Postgresql", "GIT"],
+        atividades: "Atuando como desenvolvedor full-stack (freelancer), desenvolvendo e mantendo a aplicação mobile e web do IFoot, uma plataforma de aluguel de campos de futebol. Principalmente focado na criação de micro-serviços e integração com outros serviços."
+    },
+    {
         empresa: "Embreaer S.A.",
-        data: "Jan 2024 - Fev 2025",
+        data: "Jan 2024 - Abril 2025",
         tecnologias: ["Python", "Pandas", "Sklearn", "GIT", "ML", "BigQuery", "SQL", "TensorFlow"],
         atividades: "ETL, estudo de viabilidade, aplicação de estatística e criação de modelos de Machine Learning para dados da área financeira."
     },
@@ -48,7 +60,7 @@ const Experience = () => {
             <h2>Experiências</h2>
             <div className="experience-grid">
                 {experiences.map((exp, index) => (
-                    <motion.div 
+                    <motion.div
                         className="experience-card"
                         key={index}
                         whileHover={{ scale: 1.05 }}
