@@ -4,47 +4,47 @@ import './experience.css';
 
 const experiences = [
     {
-        empresa: "Levty",
-        data: "Abril 2024 - O momento",
-        tecnologias: ["JavaScript", "Node.js", "Analytics", "ElasticSearch", "ReactJS", "GIT"],
-        atividades: "Atuando como engenheiro de software, desenvolvendo soluções de BPM, integração de sistemas e análise de dados. Foco em otimização de processos e criação de dashboards para visualização de métricas."
+        empresa: "Levt",
+        data: "Abril 2024 - Atualmente",
+        tecnologias: ["JavaScript", "Node.js", "ReactJS", "ElasticSearch", "Analytics", "GIT"],
+        atividades: "Atuação como Engenheiro de Software, desenvolvendo soluções de BPM, integração de sistemas e análise de dados. Responsável por otimizar processos internos e criar dashboards interativos para visualização de métricas e indicadores de performance."
     },
     {
-        empresa: "IFoot",
-        data: "Abril 2024 - O momento",
-        tecnologias: ["JavaScript", "Node.js", "ReactNative", "ReactJS", "Micro-services", "Supabase", "Postgresql", "GIT"],
-        atividades: "Atuando como desenvolvedor full-stack (freelancer), desenvolvendo e mantendo a aplicação mobile e web do IFoot, uma plataforma de aluguel de campos de futebol. Principalmente focado na criação de micro-serviços e integração com outros serviços."
+        empresa: "IFoot (Freelancer - Canadá)",
+        data: "Abril 2024 - Atualmente",
+        tecnologias: ["JavaScript", "Node.js", "ReactNative", "ReactJS", "Microservices", "Supabase", "PostgreSQL", "GIT"],
+        atividades: "Desenvolvimento e manutenção da aplicação mobile e web do IFoot, uma plataforma internacional de aluguel de campos de futebol. Responsável pela criação de microserviços, integração de APIs externas e melhorias de performance."
     },
     {
-        empresa: "Embreaer S.A.",
-        data: "Jan 2024 - Abril 2025",
-        tecnologias: ["Python", "Pandas", "Sklearn", "GIT", "ML", "BigQuery", "SQL", "TensorFlow"],
-        atividades: "ETL, estudo de viabilidade, aplicação de estatística e criação de modelos de Machine Learning para dados da área financeira."
+        empresa: "Embraer S.A.",
+        data: "Janeiro 2024 - Abril 2025",
+        tecnologias: ["Python", "Pandas", "Scikit-learn", "TensorFlow", "BigQuery", "SQL", "GIT"],
+        atividades: "Desenvolvimento de pipelines de dados e modelos de Machine Learning voltados à área financeira. Responsável por processos de ETL, análise estatística e criação de modelos preditivos para otimização e automação de rotinas analíticas."
     },
     {
-        empresa: "Empresa Inatel",
-        data: "Jan 2022 - Fev 2025",
+        empresa: "INATEL - Instituto Nacional de Telecomunicações",
+        data: "Janeiro 2022 - Fevereiro 2025",
         tecnologias: ["SQL", "MongoDB", "Neo4j", "Python", "Java"],
-        atividades: "Ministrar aulas de laboratório de banco de dados relacionais e não relacionais."
+        atividades: "Monitor de laboratório de bancos de dados relacionais e não relacionais, auxiliando alunos em práticas técnicas e projetos acadêmicos."
     },
     {
-        empresa: "Empresa Inatel",
-        data: "Set 2023 - Jan 2024",
-        tecnologias: ["Python", "Pandas", "Sklearn", "GIT", "ML", "SQL", "Yolo"],
-        atividades: "Iniciação científica em visão computacional e machine learning com foco em detecção de ataques suspeitos em cybersegurança."
+        empresa: "INATEL - Pesquisa em Cibersegurança",
+        data: "Setembro 2023 - Janeiro 2024",
+        tecnologias: ["Python", "Pandas", "Scikit-learn", "YOLO", "SQL", "GIT"],
+        atividades: "Pesquisa científica em visão computacional e machine learning aplicada à detecção de ataques cibernéticos, com foco em classificação de padrões e análise de anomalias."
     },
     {
-        empresa: "Empresa Inatel",
-        data: "Jan 2023 - Set 2023",
-        tecnologias: ["SQL", "JavaScript", "PHP", "HTML", "CSS", "ReactJS"],
-        atividades: "Desenvolvimento do site da instituição, manuntenção do site e melhoria de SEO."
+        empresa: "INATEL - Desenvolvimento Web Institucional",
+        data: "Janeiro 2023 - Setembro 2023",
+        tecnologias: ["ReactJS", "JavaScript", "PHP", "HTML", "CSS", "SQL"],
+        atividades: "Desenvolvimento e manutenção do site institucional do INATEL, com foco em melhorias de SEO, desempenho e experiência do usuário."
     },
     {
-        empresa: "Empresa Inatel",
-        data: "Jan 2022 - Jan 2023",
-        tecnologias: ["Python", "Pandas", "Sklearn", "GIT"],
-        atividades: "Iniciação científica para desenvolvimento de IA com foco em processamento de linguagem natural para pessoas com deficiência na fala."
-    },
+        empresa: "INATEL - Pesquisa em IA e Acessibilidade",
+        data: "Janeiro 2022 - Janeiro 2023",
+        tecnologias: ["Python", "Pandas", "Scikit-learn", "GIT"],
+        atividades: "Projeto de pesquisa em Inteligência Artificial aplicada ao processamento de linguagem natural, com foco em acessibilidade para pessoas com deficiência na fala."
+    }
 ];
 
 const Experience = () => {
