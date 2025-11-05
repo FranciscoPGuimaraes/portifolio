@@ -14,15 +14,37 @@ const About = () => {
         >
             <h2>Sobre Mim</h2>
             <div className="about-content">
-                <img src="assets/xico.jpg" alt="Francisco Pereira Guimarães" className='about-image' />
+                <img 
+                    src="assets/xico.jpg" 
+                    alt="Francisco Pereira Guimarães" 
+                    className='about-image' 
+                />
                 <p>
-                    Olá! Meu nome é <span className="destaque">Francisco Pereira Guimarães</span> e sou apaixonado por dados e tecnologia. Estou me formando em Engenharia de Software e hoje trabalho com Ciências de dados na Embraer em projetos de Machine Learning.
+                    Olá! Meu nome é <span className="destaque">Francisco Pereira Guimarães</span>, 
+                    sou <span className="destaque">Engenheiro de Software</span> com foco em 
+                    <span className="destaque"> desenvolvimento Full Stack e Inteligência Artificial</span>. 
+                    Atualmente atuo como Software Engineer na <span className="destaque">Levt</span> e também colaboro 
+                    em projetos como <span className="destaque">freelancer</span> para empresas internacionais, como a 
+                    <span className="destaque"> IFoot</span> (Canadá).
                 </p>
+
                 <p>
-                    Já atuei em projetos que envolvem desde a <span className="destaque">limpeza e análise de dados</span>, até a criação de modelos preditivos para otimizar processos e reduzir custos. Adoro explorar novas ferramentas e linguagens, sempre buscando evoluir e me adaptar às demandas do mercado.
+                    Tive experiências marcantes na <span className="destaque">Embraer</span>, 
+                    desenvolvendo soluções de Machine Learning aplicadas ao domínio financeiro, 
+                    com foco em <span className="destaque">automação, previsão e análise inteligente</span>. 
+                    Também trabalhei no <span className="destaque">INATEL</span>, contribuindo com o desenvolvimento 
+                    de sistemas web e aplicações voltadas à segurança cibernética e saúde.
                 </p>
+
                 <p>
-                    Meu grande objetivo é me tornar referência em <span className="destaque">Ciencias de dados</span>, contribuindo para a criação de soluções inovadoras e acessíveis para empresas de todos os portes.
+                    Tenho experiência prática em tecnologias como <span className="destaque">Java, Node.js, React, Angular, 
+                    Python, FastAPI e PostgreSQL</span>, além de integração com serviços em nuvem, 
+                    pipelines CI/CD e automações com IA.
+                </p>
+
+                <p>
+                    Sou movido por desafios que unem <span className="destaque">engenharia de software e inteligência artificial</span>, 
+                    buscando sempre criar soluções escaláveis, inteligentes e que gerem impacto real nos negócios.
                 </p>
             </div>
         </motion.section>
